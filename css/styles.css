@@ -1,0 +1,138 @@
+:root{
+    --indigo: #bb0d0d;
+    --white:#ffffff;
+    --black:#141414;
+    --mangenta:#a31a75;
+    --green:#0db144;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: var(--black);
+    line-height: 200%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p{
+    max-width: 70em;
+}
+
+h1, h2, h3,h4,h5,h6 {
+    color: var(--green);
+    line-height: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.plant {
+    max-width: 200px;
+    height: 200px;
+    margin-right: 150px;
+    margin-left: 150px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 150px;
+    background-color:var(--mangenta);
+}
+
+
+
+picture img {
+    width: 100%;
+}
+
+.hero-image {
+    background-image: linear-gradient(
+        var(--green),
+        var(--black)
+    );
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    font-size: 50px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+a:visited{
+    color: var(--indigo);
+}
+
+a:hover{
+    color: var(--green);
+}
+
+.button1{
+    background-color: var(--black);
+    border: none;
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+
+.button2{
+    background-color: var(--black);
+    border: none;
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+main{
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 50rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+aside{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form img{
+    width: 200px;
+}
+
+
+
+
+
+
